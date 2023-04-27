@@ -1,0 +1,9 @@
+# Name
+ent1
+# Nb actions
+2
+# Deck
+b
+a
+c
+# Discard
