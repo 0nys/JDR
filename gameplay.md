@@ -119,7 +119,10 @@
 
 ## Fonctionnement du monde
 
-+ Au bout d'un nombre de tours fixé, ou après certains événements critiques les brèches se referment
++ Au bout d'un nombre de tours fixé, les cloches sonnent, la terre tremble et les brèches se referment
+  Cet événement bloque les quêtes d'Anacron et de Karvel.
+  Si des personnages de joueurs sont encore à l'extérieur à ce moment, attendre qu'ils reviennent pour fermer définitivement
+  C'est cet événement qui doit motiver les joueurs à descendre et aller au-dela de leur quête personnelle
 + Chaîne logique du True Ending :
 	+ 1er étage  : poster œil, œil noir -> poster dessins éléments
 	+ 2ème étage : dessins éléments -> fragments de clef noire -> clef noire
