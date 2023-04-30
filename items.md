@@ -92,6 +92,8 @@
 	+ Effet : attaque 1
 + Bâton
 	+ Effet : attaque 1
++ Jumelles
+	+ Passif : améliore la vue (de 2, sauf dans le noir)
 
 
 
@@ -103,30 +105,6 @@
 + Bombe
 	+ Description : Bâton avec un fluide dedans. Peut être collé à une surface.
 	+ Démolit un mur ou inflige 7 dégâts
-+ Sort Pause (tier 1)
-	+ Invincible pendant 1 tour
-+ Sort résurrection (tier 2)
-	+ Ressuscite une entité à 25% hp (arrondi supérieur)
-+ Sort explosion (tier 2)
-	+ Feu 5 à toutes les entités dans la salle à distance
-+ Sort Armageddon (tier 3)
-	+ Feu 12 à toutes les entités dans la salle à distance
-+ Sel (consommé immédiatement)
-	+ Noir : +2hp max ou +1hp max + soin 1
-	+ Rouge : Soin 5 ou Réparation 5
-	+ Jaune : Détruire 2 cartes main ou défausse
-	+ Bleu : Tirer trois sorts au hasard, choisir parmi les trois
-	+ Vert : Attaque perçante 4 à une entité de la salle
-	+ Violet : Améliore une carte
-	+ Cyan (n'existe pas) : invoque un élémentaire de sel de couleur aléatoire
-		+ Particularités : si vert, drop cristal vert à sa mort
-		+ Stratégie : se bat en priorité contre les élémentaires de sel, sinon suit son invocateur et l'imite
-		+ HP : 5 (10 si noir)
-		+ Actions : 1
-		+ Cartes : rien (3) (aucun si jaune), attaque 1 (3) (2 si violet), soin (prio) si rouge, électricité 1 distance si bleu, gel si bleu
-	+ Blanc : Choisir une couleur (à partir du deuxième étage) (si la couleur n'existe pas, est assaisonné)
-	+ Si utilisé par Kaarvel, améliore une carte au hasard (pioche)
-
 
 ## Items clef
 
@@ -161,110 +139,3 @@
 	+ Description : Lance avec une lame énorme et des éclairs
 	+ Particularités : utilisable uniquement par Nix
 	+ Effet : attaque 2 + électricité 1, revient dans la main
-	
-
-## Sorts
-
-Pool du cristal bleu : 2x tier 1, 1x tier 2, 0x tier 3
-
-### Tier 1
-+ Garrot
-	+ Soigne 1, inflige 2 blessures
-+ Carapace
-	+ Armure 1 pour 1 tour
-+ Paralysie
-	+ Empêche tout déplacement pendant 1 tour
-+ Boule de feu
-	+ Feu 1 distance
-+ Combustion
-	+ Feu 2
-+ Éclair
-	+ Électricité 1 tous
-+ Glaçon
-	+ Gel
-+ Télépathie
-	+ Apprend le prochain tour d'une entité
-+ Téléportation
-	+ Téléporte à un endroit visible (sauf à travers barrières magiques)
-+ Clairvoyance
-	+ Piocher 3 cartes puis en défausser 3
-+ Bourgeonnement
-	+ Pioche 1 carte
-+ Abnégation
-	+ Tank des attaques au choix dans la salle pendant 1 tour
-+ Inspiration
-	+ Défausser toutes ses cartes et en repiocher autant + 1
-+ Vigueur
-	+ Attaques +1 pour ce tour
-+ Ignifugation (réaction)
-	+ Immunité au feu pour 1 tour
-+ Isolation (réaction)
-	+ Immunité à l'électricité pour 1 tour
-+ Manteau (réaction)
-	+ Immunité au gel pour 1 tour
-+ Défense (réaction)
-	+ Annule une attaque physique
-
-### Tier 2
-+ Maîtrise élémentaire
-	+ Choix entre 3 effets : feu, glace ou éclair
-	+ Feu : 2 feu distance
-	+ Glace : attaque 1 + gel distance
-	+ Éclair : électricité 1 tous distance
-+ Cautérisation
-	+ Soigne 2, inflige 3 blessures
-+ Rempart
-	+ Armure 2 pendant 1 tour
-+ Puissance
-	+ Attaques +2 pour ce tour
-+ Vampirisme
-	+ Vole 1 hp
-+ Vieillissement
-	+ Attaque 1 + Ajoute 3 blessures
-+ Divination
-	+ Piocher 4 cartes, en défausser 4
-+ Agilité
-	+ 2 parmi Action / déplacement
-+ Stalagtite
-	+ Gel 2
-+ Foudre
-	+ Électricité 1 à tous les ennemis de la salle + électricité 1
-+ Embrasement
-	+ Feu 3
-+ Floraison
-	+ Piocher 2 cartes
-+ Bouclier magique
-	+ Immunité éléments pendant 1 tour
-
-### Tier 3
-+ Amputation
-	+ Soigne 4, fait perdre un bras
-+ Rage
-	+ 2 dégâts, dégâts infligés x2 pour le tour
-+ Poing fongique
-	+ Les attaques à main nue attaquent 3 durant ce tour
-+ Accélération
-	+ Piocher 3 cartes
-+ Forteresse
-	+ Immunité attaques physiques pendant 1 tour
-+ Dopage
-	+ Attaques +3 pour ce tour
-+ Omniscience
-	+ Piocher 5 cartes, en défausser 4
-+ Inferno
-	+ Feu 4
-+ Banquise
-	+ Attaque 1 + gel 3 distance
-+ Tonnerre
-	+ Électricité 2 à tous les ennemis de la salle + électricité 1 distance
-+ Fructification
-	+ Piocher 3 cartes
-
-### Autres
-+ Transfert d'âme
-	+ Contrôle une entité inanimée
-	+ Ne peut pas être utilisé que par Gremetith
-+ Morsure
-	+ Attaque 3 + gel 2
-+ Portail
-	+ Pose un portail (2 max, qui sont reliés l'un à l'autre

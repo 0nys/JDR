@@ -4,9 +4,10 @@ import util
 
 class Entity:
 
-	def __init__(self, name=None, nb_actions=None, deck=None, discard=None):
+	def __init__(self, name=None, nb_actions=None, drop=None, deck=None, discard=None):
 		self.name = name
 		self.nb_actions = nb_actions
+		self.drop = drop
 		self.deck = deck
 		self.discard = discard
 	
@@ -17,10 +18,11 @@ class Entity:
 			lines = util.clean_lines(fent)
 			ent.name = lines[1]
 			ent.nb_actions = int(lines[3])
+			ent.drop = lines[5]
 			
 			# Create deck
 			ent.deck = []
-			i = 5
+			i = 7
 			while not lines[i][0].startswith("#"):
 				ent.deck.append(lines[i])
 				i += 1
@@ -42,6 +44,7 @@ class Entity:
 		with open(fname, "w") as fent:
 			fent.write(f"# Name\n{self.name}\n")
 			fent.write(f"# Nb actions\n{self.nb_actions}\n")
+			fent.write(f"# Drop\n{self.drop}\n")
 			fent.write("# Deck\n")
 			if self.deck != []: fent.write('\n'.join(self.deck) + "\n")
 			fent.write("# Discard\n")
@@ -76,6 +79,7 @@ class Entity:
 		return f"\
 Name:       {self.name}\n\
 Nb_actions: {self.nb_actions}\n\
+Drop:       {self.drop}\n\
 Deck:       {self.deck}\n\
 Discard:    {self.discard}"
 		
@@ -87,6 +91,6 @@ def all_entity_names():
 	with open(f"{entities_base_name}.txt", "r") as fglobal:
 		lines = util.clean_lines(fglobal)
 		for line in lines: # for each entity
-			name, nb_actions, scards = line.split(";")
+			name, nb_actions, drop, scards = line.split(";")
 			names.append(name)
 	return names

@@ -76,19 +76,7 @@ Peut-être cette fleur ne lui permettra-t-elle pas de rendre sa vie plus support
 
 ### Karvel, l'érudit
 + Vrai titre : Karvel, le damné
-+ Texte : Karvel était un marchand de Sel membre d'un peuple nomade, vivant dans une contrée désertique gelée.
-Ce peuple accorde une grande importance au Sel, l'essence de la vie, et Karvel a passé sa vie à étudier les propriétés curatives de cet étonnant cristal.
-Un jour, le chef de sa caravane ayant mystérieusement disparu, cette procession se dissolut, et Karvel devint marchand errant, accompagné par son amie Dijni.
-Malheureusement Dijni tomba gravement malade, et malgré tous ses efforts, aucun remède connu par Karvel ne parvint à la sauver.
-Autant pour aider son amie que par atteinte à sa fierté de médecin, Karvel partit trouver Nacle, la déesse du Sel, afin qu'elle lui apprenne les ultimes secrets du Sel.
-La déesse l'accueillit et lui enseigna les voies secrètes du Sel, mais ce cristal n'est pas sans danger, et le corps de Karvel se désècha et devint frêle et déformé.
-Depuis ce jour le disciple du Sel cacha son apparence diforme sous ces vêtements singuliers.
-Hélas, même sa science nouvellement acquise ne suffit toujours pas à guérir Dijni, dont la mort s'approchait.
-Un jour, après une nouvelle tentative de guérison infructueuse, il sortit de la tente de son amie, désespéré.
-Mais une fois la porte franchie, il ne retrouva pas le désert endormi mais une étrange salle ronde aux murs de glace, de laquelle de longs couloirs partaient et semblaient l'attendre.
-Loin d'être apeuré, il y vit une chance offerte par les dieux pour racheter ses échecs.
-En effet, une légende que peu connaissent raconte que dans des lieux hors de notre monde se trouve la panacée, un remède légendaire qui lorsqu'on lui cède de son sang est capable de guérir tous les maux.
-Néanmoins, ce remède pourrait attirer les convoitises, et Karvel, sachant comme il est plus facile de se faire des ennemis que des amis, n'a jamais dévoilé ce secret à personne.
++ Texte : Karvel était un marchand de Sel membre d'un peuple nomade, vivant dans une contrée désertique gelée. Ce peuple accorde une grande importance au Sel, l'essence de la vie, et Karvel a passé sa vie à étudier les propriétés curatives de cet étonnant cristal. Un jour, le chef de sa caravane ayant mystérieusement disparu, cette procession se dissolut, et Karvel devint marchand errant, accompagné par son amie Dijni. Malheureusement Dijni tomba gravement malade, et malgré tous ses efforts, aucun remède connu par Karvel ne parvint à la sauver. Autant pour aider son amie que par atteinte à sa fierté de médecin, Karvel partit trouver Nacle, la déesse du Sel, afin qu'elle lui apprenne les ultimes secrets du Sel. La déesse l'accueillit et lui enseigna les voies secrètes du Sel, mais ce cristal n'est pas sans danger, et le corps de Karvel se désècha et devint frêle et déformé. Depuis ce jour le disciple du Sel cacha son apparence diforme sous ces vêtements singuliers. Hélas, même sa science nouvellement acquise ne suffit toujours pas à guérir Dijni, dont la mort s'approchait. Un jour, après une nouvelle tentative de guérison infructueuse, il sortit de la tente de son amie, désespéré. Mais une fois la porte franchie, il ne retrouva pas le désert endormi mais une étrange salle ronde aux murs de glace, de laquelle de longs couloirs partaient et semblaient l'attendre. Loin d'être apeuré, il y vit une chance offerte par les dieux pour racheter ses échecs. En effet, une légende que peu connaissent raconte que dans des lieux hors de notre monde se trouve la panacée, un remède légendaire qui lorsqu'on lui cède de son sang est capable de guérir tous les maux. Néanmoins, ce remède pourrait attirer les convoitises, et Karvel, sachant comme il est plus facile de se faire des ennemis que des amis, n'a jamais dévoilé ce secret à personne.
 Après un dernier regard vers l'amour de sa vie, il entra dans la pièce.
 + Particularités
 	+ Connaissance du Sel : fiche avec l'effet de chaque Sel (dont le légendaire sel cyan).

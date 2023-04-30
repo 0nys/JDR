@@ -1,0 +1,38 @@
+dijni;2;sel 3;rien:4,feu 1:2,feu 2:2,feu 1 distance:3,feu 4
+mimic;1;pelle;rien:3,phys 1:4,phys 2
+méduse;1;sel blanc 2;rien:3,élec 1 multi:4,élec 2 multi:2,soin 4
+statue_8_bras;8;sel bleu;rien:8,phys 1,phys 1 distance
+scorpion;1;sel rouge;rien:2,phys 1:2,phys 1 + gel 1 distance
+lézard;1;arbalète + bouclier;rien,arbalète:3
+crabe_robotique;1;pince vengeresse;rien:3,phys 1
+robot_toupie;2;bombe;rien:6,phys 1:2,élec 1:2,phys 2 multi
+mec;2;gun;rien:4,feu 1 multi,phys 2,phys 1 distance
+oiseau_vent;2;lame des vents;rien:4,depl + phys 1:2,phys 1 multi,phys 1 + vent:2
+serpent_fantôme;4;sel blanc 2 + clef harpon;rien:7,élec 1:2,phys 1:3,élec 1 multi:2,bulle (soin 2 + défense +1 pour 1 tour)
+marchand;4;soin 4;rien:6,phys 1 multi (tremblement terre):3,phys 2:2,phys 3 (comptoir)
+champiman;2;poing fongique;rien:2,phys 2:3,phys 3:2,paralyse multi,soin 2
+démon_cerf;3;baguette amplificatrice;rien:8,phys 1:2,phys 1 distance:2,paralysie distance:2,phys 3 distance
+fée;3;poussière de fée;rien:6,phys 1:2,depl + phys 2,feu 1 distance,gel 1 distance,élec 1 multi
+ogre;1;porte-bonheur;rien:3,phys 2:2,phys 3:2
+cloporte;2;sel noir;rien:3,abnégation,phys 1:2,phys 2,def +1 1 tour (carapace)
+ordinateur;1;sel bleu;rien:2,élec 1 multi:2,boost cloporte,soin cloporte
+corne;3;sel bleu;rien:6, depl:2, depl + phys 1:2, depl + phys 2
+gros_blob;2;rien;rien:2,phys 2:2,soin 4
+petit_blob;1;sel;rien:2,phys 1:2,soin 2
+katana;1;katana;dépl + phys 1:3,phys 2:2,phys 2 multi,phys 3,blocage magique (empêche de lancer des sorts 1 tour):2
+cultiste_1;1;soin 1;rien:2,gel 1 + phys 2,gel 2 + phys 1,gel 1 multi
+cultiste_2;2;soin 2;rien:4,élec 1 multi:3,élec 1 tous,élec 2
+cultiste_3;3;soin 3;rien:6,depl + feu 1:3,depl + feu 2,feu 1 multi:2, feu 1 sur soi
+armure;4;bouclier céleste + marteau céleste + sésame + sel blanc;rien:7,phys 3 + vent,phys 2 + vent,phys 1 (bouclier):2,blocage magique (empêche de lancer des sorts 1 tour),blocage (bloque le prochain coup utile)
+tête_tentacules;2;rage;rien:3,phys 1:2,phys 2 + paralysie:2,dégât 2 + phys 3,rage
+mille-patte;1;hâche de sang;rien:6,phys 1:2,phys 2:2,depl + phys 2 distance:2,gel 1 multi (cri),croissance (+1 segment)
+papillon;3;arc de sang;rien:2,phys 1:3,phys 1 distance:2,phys 1 multi + paralysie multi
+siamois;2;sel 2;rien:4,phys 1:3,feu 2,tabasse son pote (phys 1),morsure paralysante : phys 1 + paralysie 1
+reine;4;sel blanc 3;rien:6,naissance:4,naissance estropié:2,naissance buff,naissance explosif,jet de sang
+bébé;1;rien;phys 1
+bébé_estropié;1;rien;rien:2,phys 1,suicide
+bébé_buff;1;rien;phys 1,phys 2,abnégation,boost bébé
+bébé_explosif;1;rien;suicide+feu 2 multi:2,suicide+feu 1 multi
+singe1;4;rien;rien:16,phys 1:4,depl + phys 1:2,électricité 3 distance,feu 1 + électricité 1 distance:2feu 2 distance,radiance (feu x multi super distance (x = 4 - distance en cases)) (prep 1 tour),écroulement
+singe2;4;rien;rien:10,phys 1:5,super depl + phys 2:3,depl + phys 1 multi:2,phys 2 multi,distance vieillissement (4 blessures),électricité 3 distance,feu 1 + électricité 1 distance,retour dans le temps (revient à son point de départ du tour),radiance (feu x multi super distance (x = 4 - distance en cases)) (prep 1 tour),écroulement
+phantom;2;rien,phys 2:2,phys 3

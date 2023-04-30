@@ -9,6 +9,7 @@ def usage():
 	- shuffle <entity\n\
 	- reboot <entity>\n\
 	- check <entity>\n\
+	- kill <entity>\n\
 	- cancel\n\
 	- exit")
 
@@ -26,7 +27,7 @@ def retrieve_entity(ent_name):
 		if name == ent_name: # Found!
 			ent = entity.Entity.from_name(ent_name)
 			return ent
-		elif name.startswith(ent_name):
+		elif ent_name in name:
 			candidates.append(name)
 	print(f"Entity {ent_name} not found. Did you mean one of the following?")
 	print("  " + "  ".join(candidates))
@@ -114,6 +115,20 @@ def reboot(inputs):
 	ent.update_file()
 
 
+def kill(inputs):
+
+	expect_inputs(inputs, 1)
+	
+	# Creating entity
+	ent = retrieve_entity(inputs[1].lower())
+	if ent == None: return
+
+	# Dumping to cancel file
+	ent.to_file("cancel.txt")
+	
+	print(f"After being killed, entity {ent.name} dropped {ent.drop}.")
+
+
 def check(inputs):
 
 	expect_inputs(inputs, 1)
@@ -122,7 +137,7 @@ def check(inputs):
 	ent = retrieve_entity(inputs[1].lower())
 	if ent == None: return
 	
-	print("State of entity {ent.name}:")
+	print(f"State of entity {ent.name}:")
 	print(ent)
 	
 
@@ -156,6 +171,8 @@ if __name__ == "__main__":
 			shuffle(inputs)
 		elif inputs[0] == "reboot":
 			reboot(inputs)
+		elif inputs[0] == "kill":
+			kill(inputs)
 		elif inputs[0] == "check":
 			check(inputs)
 		elif inputs[0] == "cancel":

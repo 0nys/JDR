@@ -14,7 +14,7 @@ def parse_cards(scards, ch1=",", ch2=":"):
 	for scard_type in scard_types:
 		if ":" in scard_type:
 			card, nb = scard_type.split(ch2)
-			cards += [card]*nb
+			cards += [card]*int(nb)
 		else: cards.append(scard_type)
 	random.shuffle(cards)
 	return cards
@@ -23,9 +23,9 @@ def parse_global_entities_file(fname_global_entities, dirname_output):
 	with open(fname_global_entities, "r") as fent:
 		lines = util.clean_lines(fent)
 		for line in lines: # for each entity
-			name, nb_actions, scards = line.split(";")
+			name, nb_actions, drop, scards = line.split(";")
 			cards = parse_cards(scards)
-			ent = entity.Entity(name, int(nb_actions), cards, [])
+			ent = entity.Entity(name, int(nb_actions), drop, cards, [])
 			ent.to_file(f"{dirname_output}{name}")
 
 
