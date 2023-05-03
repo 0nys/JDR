@@ -27,7 +27,7 @@ Pool du cristal bleu : 2x tier 1, 1x tier 2, 0x tier 3
 ### Paralysie
 + Paralysie : Paralysie
 + Immobilisation : Paralysie multi distance
-+ Pétrification : (Paralysie + gel 2) multi distance
++ Emprisonnement : (Paralysie + gel 2) multi distance
 
 ### Feu
 + Combustion : Feu 2
@@ -46,7 +46,7 @@ Pool du cristal bleu : 2x tier 1, 1x tier 2, 0x tier 3
 
 ### Électricité
 + Éclair : élec 1 multi
-+ Foudre : élec 1 multi + élec 1 distance
++ Foudre : élec 1 multi + élec 1
 + Tonnerre : élec 2 multi + élec 1 + élec 1 distance
 
 ### Pioche
@@ -57,7 +57,7 @@ Pool du cristal bleu : 2x tier 1, 1x tier 2, 0x tier 3
 ### Buff
 + Vigueur : équipements +1 phys pour 1 tour
 + Puissance : équipements +2 phys pour 1 tour
-+ Dopage : Attaques +3 phys pour 1 tour
++ Dopage : équipements +3 phys pour 1 tour
 
 ### Explosion
 + pétard (1 utilisation) : Feu 4 multi
@@ -117,8 +117,8 @@ Pool du cristal bleu : 2x tier 1, 1x tier 2, 0x tier 3
 
 ### Téléportation
 + Téléportation : Téléporte à un endroit visible (sauf à travers barrières magiques)
-+ Ubiquité : Vision +2 + Téléporte à un endroit visible
-+ Trou de ver : Vision +2 + Téléporte dans n'importe quelle direction
++ Ubiquité : Téléporte à un endroit visible puis peut revenir
++ Trou de ver : Téléporte dans n'importe quelle direction
 
 ### Sel
 + Transmutation (tier 2) : Change la couleur d'un sel

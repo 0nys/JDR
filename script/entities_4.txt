@@ -1,11 +1,11 @@
 dijni;2;sel 3;rien:4,feu 1:2,feu 2:2,feu 1 distance:3,feu 4
-mimic;1;pelle;rien:3,phys 1:4,phys 2
+mimic;1;pelle + jumelles;rien:3,phys 1:4,phys 2
 méduse;1;sel blanc 2;rien:3,élec 1 multi:4,élec 2 multi:2,soin 4
 statue_8_bras;8;sel bleu;rien:8,phys 1,phys 1 distance
 scorpion;1;sel rouge;rien:2,phys 1:2,phys 1 + gel 1 distance
 lézard;1;arbalète + bouclier;rien,arbalète:3
 crabe_robotique;1;pince vengeresse;rien:3,phys 1
-robot_toupie;2;bombe;rien:6,phys 1:2,élec 1:2,phys 2 multi
+robot_toupie;2;sel bleu;rien:6,phys 1:2,élec 1:2,phys 2 multi
 mec;2;gun;rien:4,feu 1 multi,phys 2,phys 1 distance
 oiseau_vent;2;lame des vents;rien:4,depl + phys 1:2,phys 1 multi,phys 1 + vent:2
 serpent_fantôme;4;sel blanc 2 + clef harpon;rien:7,élec 1:2,phys 1:3,élec 1 multi:2,bulle (soin 2 + défense +1 pour 1 tour)
@@ -14,7 +14,7 @@ champiman;2;poing fongique;rien:2,phys 2:3,phys 3:2,paralyse multi,soin 2
 démon_cerf;3;baguette amplificatrice;rien:8,phys 1:2,phys 1 distance:2,paralysie distance:2,phys 3 distance
 fée;3;poussière de fée;rien:6,phys 1:2,depl + phys 2,feu 1 distance,gel 1 distance,élec 1 multi
 ogre;1;porte-bonheur;rien:3,phys 2:2,phys 3:2
-cloporte;2;sel noir;rien:3,abnégation,phys 1:2,phys 2,def +1 1 tour (carapace)
+cloporte;2;bombe;rien:3,abnégation,phys 1:2,phys 2,def +1 1 tour (carapace)
 ordinateur;1;sel bleu;rien:2,élec 1 multi:2,boost cloporte,soin cloporte
 corne;3;sel bleu;rien:6, depl:2, depl + phys 1:2, depl + phys 2
 gros_blob;2;rien;rien:2,phys 2:2,soin 4

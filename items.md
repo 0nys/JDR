@@ -5,79 +5,79 @@
 
 + Bouclier
 	+ Description : Bouclier rond en bois
-	+ Effet : bloque 1 attaque physique par tour
+	+ Effet (réaction) : bloque phys 2 une fois par tour
 + Bouclier céleste
 	+ Description : Bouclier ailé de cristal
-	+ Effet : bloque 1 attaque quelconque par tour
+	+ Effet (réaction) : bloque 1 attaque quelconque par tour + 1 vent
 + Bouclier miroir
 	+ Description : Bouclier miroir. On l'obtient en tuant assez d'ennemis dans le monde miroir (éclats de miroir)
-	+ Effet : renvoie toutes les attaques élémentaires
+	+ Effet (réaction) : renvoie 1 attaque élémentaire par tour
 + Champ de force
 	+ Description : Boule de métal. Déploie un champ de force quand on l'active
 	+ Effet : dégâts physiques entrants -1
 + Talisman
 	+ Description : pendentif circulaire avec un dessin de spirale carrée dessus
-	+ Effet : dégâts élémentaires entrants -1. Permet de passer le couloir infini
+	+ Effet : dégâts élémentaires entrants -1. (Permet de passer le couloir infini)
 + Anneau de protection
 	+ Description : un anneau en fer avec un diamant
-	+ Effet : dégâts élémentaires entrants -1
+	+ Effet : Passif : Choisir immunité à un élément
 + Pince vengeuse
 	+ Description : une pince de crabe recouverte d'épines
 	+ Effet : Quand attaqué au cac, attaque 1
 + Lame des vents
 	+ Description : Plume blanche tranchante
-	+ Effet : Attaque 1 + vent. Peut être utilisée avec des cartes déplacement
+	+ Effet : Attaque 1 + vent 1.
 + Torche
 	+ Description : Juste une torche. On la trouve sur les murs de pierre
 	+ Effet : Feu 1 coup de poing
 + Torche blanche
 	+ Description : Torche de feu blanc. On l'allume au foyer blanc.
 	+ Effet : Permet de passer à travers le miroir (on ne voit pas le feu à travers le miroir) + feu 1
-+ Glaive résonnant
++ Glaive absorbant
 	+ Description : Glaive simple
-	+ Effet : Attaque 1. Peut être infusée pour gagner un effet supplémentaire.
-+ Bâton d'amplification
+	+ Effet : Attaque 1. (Peut être infusée pour gagner un effet supplémentaire.)
++ Baguette amplificatrice
 	+ Description : Bâton de bois avec un prisme encastré au bout
 	+ Effet : active un sort en main ou attaque 1
 + Lanterne magique
 	+ Description : lanterne avec une flamme verte.
-	+ Effet : 1 feu + révélation
+	+ Effet : 1 feu + passif : révélation (révèle les secrets de la case)
 + Katana maudit
 	+ Description : Un katana sombre
 	+ Effet : attaque 3. Tant qu'il est en main, obligé d'utiliser les cartes actions pour attaquer avec
 + Marteau céleste (2 mains)
 	+ Description : Un grand marteau avec des ailes sur le côté
-	+ Effet : Attaque 3 + vent
+	+ Effet : Attaque 3 + vent 1
 + Hallebarde thermique (2 mains)
 	+ Description : Un long manche avec une lame brûlante au bout.
 	+ Effet : attaque 2 + feu 1
 + Lance-trucs
 	+ Description : une sorte de gros lance-pierre
-	+ Effet : lance un objet dans une main ou en carte -> dégâts de l'objet à distance + attaque 1
+	+ Effet : Passif : dégâts de lancer + phys 1
 + Arc de sang
 	+ Description : grand os arqué par un tendon. Peut former une flêche de sang
-	+ Effet : 1 dégât + attaque 3 distance
+	+ Effet : -1hp / +1 blessure -> phys 3 distance
 + Hache de sang (2 mains)
 	+ Description : Francisque en os avec un oeil fermé au milieu.
-	+ Effet : attaque 2 ou 1 dégât + attaque 4
+	+ Effet : attaque 2 ou -1hp / +1 blessure -> phys 4
 + Arbalète
-	+ Description : arbalète. 5 carreaux de base.
+	+ Description : arbalète. 10 carreaux de base.
 	+ Effet : attaque 1 distance
 + Gun
-	+ Description : pistolet laser. 10 cartouches de base.
+	+ Description : pistolet laser. 5 cartouches de base.
 	+ Effet : électricité 2 distance
 + Shotgun électrique
-	+ Description : shotgun, mais électrique. 5 cartouches de base
-	+ Effet : 2 électricité à toutes les autres entités de la salle
+	+ Description : shotgun, mais électrique. 4 cartouches de base
+	+ Effet : 3 élec multi
 + Porte-bonheur
 	+ Description : Une poupée en bois
-	+ Effet : mystère (le MJ est un peu plus arrangeant avec ce joueur)
+	+ Effet : Porte le bonheur (le MJ est un peu plus arrangeant avec ce joueur)
 + Cryolame
 	+ Description : couteau à la lame froide
 	+ Effet : attaque 2 + gel
 + Épée du destin (2 mains)
 	+ Description : Une épée gigantesque
-	+ Effet : attaque 4
+	+ Effet : attaque 6
 + Pelle
 	+ Description : Pelle
 	+ Effet : À déterminer (attaque 1 déjà)
@@ -94,6 +94,8 @@
 	+ Effet : attaque 1
 + Jumelles
 	+ Passif : améliore la vue (de 2, sauf dans le noir)
++ Téléporteur
+	+ Effet : téléporte à 2 cases de distance
 
 
 
@@ -104,7 +106,10 @@
 	+ Soin 2
 + Bombe
 	+ Description : Bâton avec un fluide dedans. Peut être collé à une surface.
-	+ Démolit un mur ou inflige 7 dégâts
+	+ Démolit un mur ou inflige 8 dégâts
++ Poussière de fée
+	+ Description : Bouteille plein de poussière brillante
+	+ Effet : Sauvegarde (peut être chargé à tout moment) ou soin infini
 
 ## Items clef
 
@@ -113,9 +118,6 @@
 	+ Deviennent la clef noire quand quelqu'un a les 3 en main
 + Clef noire
 	+ Ouvre la serrure noire
-+ Poussière de fée
-	+ Description : Bouteille plein de poussière brillante
-	+ Effet : Sauvegarde (peut être chargé à tout moment) ou soigne à 100%
 + Panacée
 	+ Description : Une grande fleur de toutes les couleurs
 	+ Effet : (détruire) récupérer tous les hp, retirer toutes les blessures du deck. Retire la malédiction de Nix.

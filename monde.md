@@ -284,6 +284,6 @@ Scaling des stats : 3/4/5/6/7 joueurs
 	  Contrôlée par le MJ et joue après chaque joueur (2 cartes) (si Hurwuti : 1 carte et on enlève des rien)
 	+ Stats
 		+ 50/58/66/74/82
-		+ Cartes : rien (15), attaque perçante 1 (5) attaque 2 (3), attaque 3 (2), concentration : prochain tour pioche 2 cartes supplémentaires, super gel (2), vampirisme 3
-		  contrôle mental : joue à la place du prochain joueur (avec son deck), regarde les 5 premières cartes du deck et en défausse autant qu'elle veut, rétrograde 1 carte d'une défausse,
-		  emprunte une arme équipée, téléporte dans l'eau pendant un tour
+		+ Cartes : rien (20), attaque 1 (7), attaque 1 + gel 1 (3), attaque 2 (5), attaque 2 + gel 2 (2), concentration : prochain tour pioche 2 cartes supplémentaires (3), gel 3 (2), vampirisme 3
+		  contrôle mental : joue à la place du prochain joueur (avec son deck), regarde les 5 premières cartes du deck et en défausse autant qu'elle veut (et remet le reste dessus) (2), rétrograde 1 carte d'une défausse,
+		  emprunte une arme équipée (3), téléporte dans l'eau pendant un tour
