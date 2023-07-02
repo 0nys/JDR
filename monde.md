@@ -6,6 +6,19 @@ Scaling des stats : 3/4/5/6/7 joueurs
 
 ### Étage -1
 
++ Prisonnière 1
+	+ Description : se fait bouffer par le poisson au bout d'un moment
+
++ Prisonnière 2
+	+ Description : À côté du poisson, elle a vu sa pote se faire bouffer. Quand l'équipe combat le poisson, elle saute et se fait bouffer
+
++ Prisonnier 3
+	+ Description : À côté de la sortie. Il étudie le mécanisme de la porte sens-unique. Quand elle est ouverte il part explorer solo
+
++ Limace-tortue
+	+ Description : une limace avec une carapace de tortue. A déjà visité tout l'étage et fait part de ses incompréhensions.
+	Elle est très lente et ne peut pas suivre la team
+
 + Copine de Kaarvel
 	+ Description : Une femme maigre aux cheveux longs. Elle a des flammes dans les yeux. Fait de la magie de feu.
 	+ Particularités : Rejoint Kaarvel si soignée avant la fermeture des brèches. Peut subir des blessures.

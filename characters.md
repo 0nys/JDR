@@ -17,7 +17,7 @@ Lore et capacités des personnages : cf fichiers `.odg`
 	+ Cartes : déplacement (4), super déplacement, action (3), action ambidextre (2), défense, soin x2
 
 
-### Nix, la triomphante
+### Nix, l'invincible
 + Particularités
 	+ Si elle prie à l'autel d'Olonock, elle reçoit le lore suivant :
 		+ "Mon enfant Nix, je me désole de voir que ma bénédiction te met en peine. Si la mort ne te fait pas peur, verse le sang au Nord du passage qui t'a mené à cet endroit maudit, et tu trouveras enfin la paix"
