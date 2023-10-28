@@ -1,0 +1,20 @@
+# Name
+fée
+# Nb actions
+3
+# Drop
+poussière de fée
+# Deck
+phys 1
+rien
+depl + phys 2
+rien
+élec 1 multi
+feu 1 distance
+rien
+phys 1
+rien
+rien
+gel 1 distance
+rien
+# Discard

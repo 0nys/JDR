@@ -6,7 +6,7 @@ import entity
 def usage():
 	print("Commands:\n\
 	- play <entity> [<nb_ice>]\n\
-	- shuffle <entity\n\
+	- shuffle <entity>\n\
 	- reboot <entity>\n\
 	- check <entity>\n\
 	- kill <entity>\n\

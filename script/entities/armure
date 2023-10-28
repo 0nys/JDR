@@ -1,0 +1,21 @@
+# Name
+armure
+# Nb actions
+4
+# Drop
+bouclier céleste + marteau céleste + sésame + sel blanc
+# Deck
+rien
+phys 3 + vent
+blocage (bloque le prochain coup utile)
+phys 1 (bouclier)
+blocage magique (empêche de lancer des sorts 1 tour)
+rien
+phys 2 + vent
+rien
+rien
+rien
+rien
+rien
+phys 1 (bouclier)
+# Discard

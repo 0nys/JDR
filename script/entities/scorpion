@@ -1,0 +1,13 @@
+# Name
+scorpion
+# Nb actions
+1
+# Drop
+sel rouge
+# Deck
+phys 1
+phys 1 + gel 1 distance
+rien
+rien
+phys 1
+# Discard

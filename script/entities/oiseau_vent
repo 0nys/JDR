@@ -1,0 +1,17 @@
+# Name
+oiseau_vent
+# Nb actions
+2
+# Drop
+lame des vents
+# Deck
+phys 1 + vent
+depl + phys 1
+phys 1 multi
+rien
+depl + phys 1
+rien
+phys 1 + vent
+rien
+rien
+# Discard

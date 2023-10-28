@@ -43,7 +43,7 @@ Lore et capacités des personnages : cf fichiers `.odg`
 + Stats
 	+ HP : 15, commence avec 7 HP
 	+ Items de départ : Aucun
-	+ Cartes : déplacement (3), action (4), défense (2), abnégation, impureté (7)
+	+ Cartes : déplacement (4), action (6), défense (2), abnégation, impureté (9)
 
 
 ### Hurwuti, l'insondable

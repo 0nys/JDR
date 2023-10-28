@@ -67,7 +67,7 @@ Scaling des stats : 3/4/5/6/7 joueurs
 	+ Particularités : quand on l'attaque il attaque 1 en retour
 	+ Drop : pince vengeresse
 	+ Stats
-	+ HP : 7/8/9/10/11
+	+ HP : 4/5/6/7/8
 	+ Actions : 1/1/1/2/2
 	+ Éléments : rési feu, faible élec
 		
@@ -93,7 +93,7 @@ Scaling des stats : 3/4/5/6/7 joueurs
 	+ Actions : 2/2/2/3/3
 	+ Éléments : faible feu
 		
-+ **Boss - Serpent fantôme**
++ **Boss - Serpent fantôme**serp
 	+ Description : s'allume quand on entre dans l'eau. Long serpent 75cm de diamètre, translucide avec des points lumineux le long du corps. Décharges électriques
 	+ Particularités : Dans l'eau, à part Gremetith il faut utiliser 1 carte ACT ou MOV par tour pour respirer, sinon dégât.
 	+ Drop : sel blanc

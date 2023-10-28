@@ -1,0 +1,19 @@
+# Name
+corne
+# Nb actions
+3
+# Drop
+sel bleu
+# Deck
+ depl
+ depl + phys 2
+rien
+rien
+rien
+ depl + phys 1
+rien
+ depl + phys 1
+rien
+ depl
+rien
+# Discard

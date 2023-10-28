@@ -1,0 +1,20 @@
+# Name
+dijni
+# Nb actions
+2
+# Drop
+sel 3
+# Deck
+rien
+feu 1 distance
+feu 1 distance
+rien
+feu 1 distance
+feu 2
+feu 4
+feu 2
+feu 1
+rien
+rien
+feu 1
+# Discard

@@ -1,0 +1,23 @@
+# Name
+serpent_fantôme
+# Nb actions
+4
+# Drop
+sel blanc 2 + clef harpon
+# Deck
+rien
+rien
+rien
+élec 1 multi
+rien
+rien
+phys 1
+bulle (soin 2 + défense +1 pour 1 tour)
+rien
+rien
+phys 1
+élec 1 multi
+phys 1
+élec 1
+élec 1
+# Discard

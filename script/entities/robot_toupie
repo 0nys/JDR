@@ -1,0 +1,19 @@
+# Name
+robot_toupie
+# Nb actions
+2
+# Drop
+sel bleu
+# Deck
+rien
+phys 1
+rien
+phys 2 multi
+rien
+rien
+rien
+élec 1
+phys 1
+rien
+élec 1
+# Discard

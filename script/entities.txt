@@ -27,12 +27,12 @@ armure;4;bouclier céleste + marteau céleste + sésame + sel blanc;rien:7,phys 
 tête_tentacules;2;rage;rien:3,phys 1:2,phys 2 + paralysie:2,dégât 2 + phys 3,rage
 mille-patte;1;hâche de sang;rien:6,phys 1:2,phys 2:2,depl + phys 2 distance:2,gel 1 multi (cri),croissance (+1 segment)
 papillon;3;arc de sang;rien:2,phys 1:3,phys 1 distance:2,phys 1 multi + paralysie multi
-siamois;2;sel 2;rien:4,phys 1:3,feu 2,tabasse son pote (phys 1),morsure paralysante : phys 1 + paralysie 1
+siamois;2;sel 2;rien:4,phys 1:3,feu 2,tabasse son pote (phys 1),morsure paralysante (phys 1 + paralysie 1)
 reine;4;sel blanc 3;rien:6,naissance:4,naissance estropié:2,naissance buff,naissance explosif,jet de sang
 bébé;1;rien;phys 1
 bébé_estropié;1;rien;rien:2,phys 1,suicide
 bébé_buff;1;rien;phys 1,phys 2,abnégation,boost bébé
 bébé_explosif;1;rien;suicide+feu 2 multi:2,suicide+feu 1 multi
-singe1;4;rien;rien:16,phys 1:4,depl + phys 1:2,électricité 3 distance,feu 1 + électricité 1 distance:2feu 2 distance,radiance (feu x multi super distance (x = 4 - distance en cases)) (prep 1 tour),écroulement
+singe1;4;rien;rien:16,phys 1:4,depl + phys 1:2,électricité 3 distance,feu 1 + électricité 1 distance:2,feu 2 distance,radiance (feu x multi super distance (x = 4 - distance en cases)) (prep 1 tour),écroulement
 singe2;4;rien;rien:10,phys 1:5,super depl + phys 2:3,depl + phys 1 multi:2,phys 2 multi,distance vieillissement (4 blessures),électricité 3 distance,feu 1 + électricité 1 distance,retour dans le temps (revient à son point de départ du tour),radiance (feu x multi super distance (x = 4 - distance en cases)) (prep 1 tour),écroulement
-phantom;2;rien,phys 2:2,phys 3
+phantom;2;rien;rien,phys 2:2,phys 3

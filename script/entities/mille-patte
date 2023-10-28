@@ -1,0 +1,22 @@
+# Name
+mille-patte
+# Nb actions
+1
+# Drop
+hâche de sang
+# Deck
+depl + phys 2 distance
+rien
+phys 2
+rien
+phys 1
+rien
+phys 2
+gel 1 multi (cri)
+phys 1
+rien
+rien
+depl + phys 2 distance
+rien
+croissance (+1 segment)
+# Discard

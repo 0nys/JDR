@@ -1,0 +1,35 @@
+# Name
+singe2
+# Nb actions
+4
+# Drop
+rien
+# Deck
+rien
+rien
+rien
+rien
+retour dans le temps (revient à son point de départ du tour)
+phys 1
+électricité 3 distance
+phys 1
+phys 1
+rien
+depl + phys 1 multi
+distance vieillissement (4 blessures)
+super depl + phys 2
+depl + phys 1 multi
+rien
+super depl + phys 2
+rien
+feu 1 + électricité 1 distance
+phys 2 multi
+rien
+rien
+rien
+phys 1
+écroulement
+phys 1
+super depl + phys 2
+radiance (feu x multi super distance (x = 4 - distance en cases)) (prep 1 tour)
+# Discard

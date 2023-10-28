@@ -1,0 +1,36 @@
+# Name
+singe1
+# Nb actions
+4
+# Drop
+rien
+# Deck
+rien
+rien
+rien
+phys 1
+rien
+feu 2 distance
+rien
+radiance (feu x multi super distance (x = 4 - distance en cases)) (prep 1 tour)
+rien
+rien
+rien
+depl + phys 1
+électricité 3 distance
+rien
+rien
+phys 1
+feu 1 + électricité 1 distance
+depl + phys 1
+rien
+écroulement
+rien
+rien
+phys 1
+phys 1
+rien
+rien
+rien
+feu 1 + électricité 1 distance
+# Discard
