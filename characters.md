@@ -35,7 +35,7 @@ Lore et capacités des personnages : cf fichiers `.odg`
 + Stats
 	+ HP : 8
 	+ Items de départ : Réceptacle, poignard
-	+ Cartes : déplacement (3), action (3), glaçon, soin x4, garrot, carapace
+	+ Cartes : déplacement (3), action (3), glaçon, soin x5, garrot, carapace
 
 
 ### Gremetith, l'inflexible
@@ -52,8 +52,8 @@ Lore et capacités des personnages : cf fichiers `.odg`
 	+ Après avoir complété le tableau, gagne 2 bras
 + Stats
 	+ HP : 4
-	+ Items de départ : Soin x4
-	+ Cartes : déplacement (5), action (4), super-action, défense, télépathie, téléportation, divination, morsure, portail
+	+ Items de départ : Soin x3
+	+ Cartes : déplacement (6), action (5), super-action (2), télépathie, téléportation, divination, morsure, portail
 	
 
 ### L'aventurière
